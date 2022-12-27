@@ -1,27 +1,25 @@
 {
-  "name": "netlify-express",
-  "version": "0.0.1",
-  "description": "Example of how to deploy a Express.js Netlify app.",
-  "main": "functions/server.js",
+  "name": "cooler-date-express-server",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodonguyen/cooler-date-express-server.git"
+  },
   "scripts": {
-    "build": "netlify-lambda build express",
-    "start": "nodemon server-local.js"
+    "start": "nodemon server.js",
+    "devStart": "nodemon server.js"
   },
-  "keywords": [
-    "netlify",
-    "express.js"
-  ],
-  "author": "neverendingqs",
-  "license": "Apache-2.0",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/neverendingqs/netlify-express/issues"
+    "url": "https://github.com/rodonguyen/cooler-date-express-server/issues"
   },
-  "homepage": "https://github.com/neverendingqs/netlify-express#readme",
-  "devDependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1",
-    "netlify-lambda": "^1.6.3",
+  "homepage": "https://github.com/rodonguyen/cooler-date-express-server#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
     "nodemon": "^2.0.20",
-    "serverless-http": "^2.3.0"
+    "pug": "^3.0.2"
   }
 }
